@@ -1,7 +1,7 @@
 with open('input.txt', 'r') as f:
     lines = f.readlines()
     
-#Näive solution
+#näive solution
 
 calories = []
 temp = 0
@@ -11,7 +11,6 @@ for entry in lines:
     else:
         calories.append(temp)
         temp = 0
-        continue
 
 #task 1
 highest_calories = max(calories)
