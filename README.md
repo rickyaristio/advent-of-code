@@ -4,4 +4,5 @@
 --- Day 2: Rock Paper Scissors --- <br />
 --- Day 3: Rucksack Reorganization --- <br />
 --- Day 4: Camp Cleanup --- <br />
---- Day 5: Supply Stacks ---
+--- Day 5: Supply Stacks --- <br />
+--- Day 6: Tuning Trouble ---
