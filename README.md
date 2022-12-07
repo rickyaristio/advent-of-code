@@ -5,4 +5,5 @@
 --- Day 3: Rucksack Reorganization --- <br />
 --- Day 4: Camp Cleanup --- <br />
 --- Day 5: Supply Stacks --- <br />
---- Day 6: Tuning Trouble ---
+--- Day 6: Tuning Trouble --- <br />
+--- Day 7: No Space Left On Device ---
