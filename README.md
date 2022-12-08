@@ -6,4 +6,5 @@
 --- Day 4: Camp Cleanup --- <br />
 --- Day 5: Supply Stacks --- <br />
 --- Day 6: Tuning Trouble --- <br />
---- Day 7: No Space Left On Device ---
+--- Day 7: No Space Left On Device --- <br />
+--- Day 8: Treetop Tree House ---
