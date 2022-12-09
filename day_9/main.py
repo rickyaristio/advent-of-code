@@ -2,8 +2,6 @@ import numpy as np
 np.set_printoptions(threshold=np.inf)
 
 def positionMovement(matrix_2d,move,steps,H_x,H_y,T_x,T_y):
-    print(move)
-    print(steps)
     for n in range(steps):
         init_H_x = H_x
         init_H_y = H_y
