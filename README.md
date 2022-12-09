@@ -1,4 +1,4 @@
-**Advent of Code 2022 -- Naive solution**
+**Advent of Code 2022 -- Naive and simple solutions in python**
 
 --- Day 1: Calorie Counting --- <br />
 --- Day 2: Rock Paper Scissors --- <br />
