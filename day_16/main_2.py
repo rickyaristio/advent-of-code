@@ -40,7 +40,6 @@ min_paths = {}
 for node in graph.keys():
     min_paths[node] = bfs(node)
 
-# print(min_paths)
 
 checked_open = {}
 ans = 0
@@ -74,13 +73,26 @@ def solve(node, time, curr):
 
     checked_open[node] = False
 
+#26 minutes
 for key in checked.keys():
     checked_open = {}
     for k in checked.keys():
         checked_open[k] = False
-    solve(key, 30 - min_paths["AA"][key], 0)
-    print(key,ans)
+    solve(key, 26 - min_paths["AA"][key], 0)
 
-print(checked_open)
-print(ans)
+def disjoint(t1,t2):
+    return not (set(t1) & set(t2))
+
+#find max sum of disjointed paths
+n = len(answer_space)
+answer_space = list(answer_space.items())
+for i in range(n):
+    for j in range (i+1,n):
+        el1,v1 = answer_space[i]
+        el2,v2 = answer_space[j]
+        if disjoint(el1,el2):
+            ans = max(ans, v1+v2)
+
+print(ans) #2425
+
     
