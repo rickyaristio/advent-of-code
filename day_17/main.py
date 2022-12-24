@@ -101,7 +101,19 @@ inputs = []
 for i in range(len(line[0])-1):
     inputs.append(line[0][i])
 
-print(inputs)
+# print(inputs)
 order = ['horizontal','cross','L','vertical','square']
 
+#part 1
+_,starts = run(2022)
 print(run(2022)[0]) #3175
+
+#part 2 (repetitions)
+count = 1000000000000
+_,starts = run(len(inputs) * len(order))
+biggest = max([input for input, iterations in starts.items()])
+rep = starts[biggest][-1] - starts[biggest][-2]
+growth = run(starts[biggest][-1])[0] - run(starts[biggest][-2])[0]
+start = count % rep + 2022// rep*rep
+top_rock = run(start)[0] + growth * (count - start)//rep
+print(top_rock) #1555113636385
