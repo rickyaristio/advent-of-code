@@ -1,19 +1,32 @@
-import numpy as np
 
-
+number_list = []
 with open('input.txt', 'r') as f:
-    lines = f.readlines()
+    number_list = list(enumerate(map(int, f.read().splitlines())))
 
-initial_array = []
-dummy_array = []
+# print(number_list)
 
-for line in lines:
-    initial_array.append(int(line))
+len_list = len(number_list)
 
-num_array = len(initial_array)
-print(initial_array,num_array)
+for i in range(len_list): 
+    for j in range(len_list):
+        if number_list[j][0] == i:
+            num = number_list[j]
+            number_list.pop(j)
+            if num[1] == -j:
+                number_list.append(num)
+            else:
+                number_list.insert((j + num[1]) % (len_list-1), num)
+            break
 
-dummy_array = initial_array
-for item in initial_array:
-    # initial_array.remove(item)
-    # initial_array.insert(new_index, item)
+index_zero = 0
+for i in range(len_list): 
+    if number_list[i][1] == 0:
+        index_zero = i
+        break
+
+index_1000 = number_list[(1000+index_zero) % len_list][1]
+index_2000 = number_list[(2000+index_zero) % len_list][1]
+index_3000 = number_list[(3000+index_zero) % len_list][1]
+sum = index_1000 + index_2000 + index_3000
+
+print(sum) #8764
