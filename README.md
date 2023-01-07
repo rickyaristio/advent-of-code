@@ -14,4 +14,10 @@
 --- Day 12: Hill Climbing Algorithm !!--- <br />
 --- Day 13: Distress Signal --- <br />
 --- Day 14: Regolith Reservoir --- <br />
---- Day 15: Beacon Exclusion Zone ---
+--- Day 15: Beacon Exclusion Zone --- <br />
+--- Day 16: Proboscidea Volcanium --- <br />
+--- Day 17: Pyroclastic Flow --- <br />
+--- Day 18: Boiling Boulders --- <br />
+--- Day 19: Not Enough Minerals --- <br />
+--- Day 20: Grove Positioning System --- <br />
+--- Day 21: Monkey Math ---
