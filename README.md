@@ -1,14 +1,14 @@
 **Advent of Code 2022 -- Naive and simple solutions in python**
 
---- Day 1: Calorie Counting --- <br />
---- Day 2: Rock Paper Scissors --- <br />
---- Day 3: Rucksack Reorganization --- <br />
---- Day 4: Camp Cleanup --- <br />
---- Day 5: Supply Stacks --- <br />
---- Day 6: Tuning Trouble --- <br />
---- Day 7: No Space Left On Device --- <br />
---- Day 8: Treetop Tree House --- <br />
---- Day 9: Rope Bridge --- <br />
+--- Day 01: Calorie Counting --- <br />
+--- Day 02: Rock Paper Scissors --- <br />
+--- Day 03: Rucksack Reorganization --- <br />
+--- Day 04: Camp Cleanup --- <br />
+--- Day 05: Supply Stacks --- <br />
+--- Day 06: Tuning Trouble --- <br />
+--- Day 07: No Space Left On Device --- <br />
+--- Day 08: Treetop Tree House --- <br />
+--- Day 09: Rope Bridge --- <br />
 --- Day 10: Cathode-Ray Tube --- <br />
 --- Day 11: Monkey in the Middle --- <br />
 --- Day 12: Hill Climbing Algorithm !!--- <br />
@@ -21,6 +21,6 @@
 --- Day 19: Not Enough Minerals --- <br />
 --- Day 20: Grove Positioning System --- <br />
 --- Day 21: Monkey Math --- <br />
-<br />
+--- Day 22: Monkey Map --- <br />
 --- Day 23: Unstable Diffusion --- <br />
 --- Day 24: Blizzard Basin --- <br />
