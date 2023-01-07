@@ -20,4 +20,7 @@
 --- Day 18: Boiling Boulders --- <br />
 --- Day 19: Not Enough Minerals --- <br />
 --- Day 20: Grove Positioning System --- <br />
---- Day 21: Monkey Math ---
+--- Day 21: Monkey Math --- <br />
+<br />
+--- Day 23: Unstable Diffusion --- <br />
+--- Day 24: Blizzard Basin --- <br />
