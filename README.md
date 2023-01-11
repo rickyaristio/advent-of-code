@@ -1,4 +1,6 @@
-**Advent of Code 2022 -- Naive and simple solutions in python**
+**Advent of Code -- Naive and simple solutions in python**
+
+2022
 
 --- Day 1: Calorie Counting --- <br />
 --- Day 2: Rock Paper Scissors --- <br />
@@ -27,3 +29,5 @@
 --- Day 25: Full of Hot Air ---
 
 DONE :) Kudos for all the helps (especially on day 16, 17, 19); see you later in Dec 2023
+
+2021
